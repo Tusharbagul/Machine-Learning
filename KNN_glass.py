@@ -1,3 +1,5 @@
+
+#Objective is to Prepare a model for glass classification using KNN
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -67,27 +69,3 @@ y_pred = knn.predict(X_test)
 y_pred
 print(classification_report(y_test, y_pred))
 accuracy_score(y_test, y_pred)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
